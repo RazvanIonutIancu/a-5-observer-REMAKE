@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://ddqh28qv8hxy5"]
+
+[ext_resource type="Script" uid="uid://i8wycf6gxh0h" path="res://scripts/AudioPlayer.cs" id="1_1qhh7"]
+[ext_resource type="AudioStream" uid="uid://bd2oeslsqn7p4" path="res://sounds/player_bump.wav" id="1_syohv"]
+[ext_resource type="AudioStream" uid="uid://bd37uhyywmv81" path="res://sounds/click_sound.wav" id="2_mfaxx"]
+[ext_resource type="AudioStream" uid="uid://ypik7fg07m4b" path="res://sounds/player_hurt_sound.wav" id="2_qbjj0"]
+[ext_resource type="AudioStream" uid="uid://cs37ug3csyafa" path="res://sounds/player_jump_sound.wav" id="3_mfaxx"]
+
+[node name="AudioController" type="Node"]
+script = ExtResource("1_1qhh7")
+
+[node name="PlayerHitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_syohv")
+
+[node name="PlayerHurtSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_qbjj0")
+
+[node name="PlayerJumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_mfaxx")
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_mfaxx")

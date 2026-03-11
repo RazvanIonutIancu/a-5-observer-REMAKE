@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=3 uid="uid://uav2c4yg5n5s"]
+
+[ext_resource type="Script" uid="uid://b63nithh5cxdu" path="res://scripts/Player.cs" id="1_4m5hh"]
+[ext_resource type="Script" uid="uid://ewobrlxrlm2q" path="res://scripts/HpText.cs" id="2_0upji"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m5hh"]
+albedo_color = Color(0.2, 0.16078432, 0.38039216, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_4m5hh"]
+material = SubResource("StandardMaterial3D_4m5hh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0upji"]
+albedo_color = Color(0.2, 0.16078432, 0.38039216, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0upji"]
+material = SubResource("StandardMaterial3D_0upji")
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cvrci"]
+
+[node name="PlayerNode" type="Node3D"]
+
+[node name="Player" type="CharacterBody3D" parent="."]
+script = ExtResource("1_4m5hh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+mesh = SubResource("CapsuleMesh_4m5hh")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Player"]
+transform = Transform3D(0.64714134, 0, 0, 0, -3.6981334e-09, 0.31158456, 0, -0.08460343, -1.3619794e-08, 0, 0.418, -0.516)
+mesh = SubResource("CylinderMesh_0upji")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("CapsuleShape3D_cvrci")
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 0.74966073, 0.66182226, 0, -0.66182226, 0.74966073, 0, 7.820205, 8.694471)
+
+[node name="HPText" type="Label3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4462352, 0)
+font_size = 120
+script = ExtResource("2_0upji")

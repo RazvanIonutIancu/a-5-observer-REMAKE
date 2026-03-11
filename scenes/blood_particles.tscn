@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://dld8rmp0b6pfd"]
+
+[ext_resource type="Script" uid="uid://d0xyauw2gwtyp" path="res://scripts/Blood.cs" id="1_hjwtm"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_3r22h"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 1, 0)
+emission_ring_height = 1.0
+emission_ring_radius = 1.0
+emission_ring_inner_radius = 0.0
+emission_ring_cone_angle = 90.0
+spread = 100.0
+radial_velocity_min = -2.2351742e-05
+radial_velocity_max = 4.9999776
+linear_accel_min = -2.2351742e-06
+linear_accel_max = -2.2351742e-06
+scale_min = 0.29999998
+scale_max = 0.29999998
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3r22h"]
+albedo_color = Color(0.6039216, 0, 0.06666667, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_hjwtm"]
+material = SubResource("StandardMaterial3D_3r22h")
+
+[node name="BloodParticles" type="Node3D"]
+
+[node name="Blood" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+emitting = false
+amount = 10
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_3r22h")
+draw_pass_1 = SubResource("SphereMesh_hjwtm")
+script = ExtResource("1_hjwtm")

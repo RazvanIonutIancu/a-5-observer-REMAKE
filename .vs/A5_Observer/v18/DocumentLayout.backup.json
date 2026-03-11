@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\hptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\hptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\mob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\mob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\mobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\mobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\npcanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\npcanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|c:\\users\\zacku\\documents\\godot projects\\a-5-observer\\scripts\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5D37AA-6EBA-4B4C-B7B6-7A1B29A35B85}|A5_Observer.csproj|solutionrelative:scripts\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HpText.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\HpText.cs",
+              "RelativeDocumentMoniker": "scripts\\HpText.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\HpText.cs",
+              "RelativeToolTip": "scripts\\HpText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:01:28.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\Player.cs",
+              "RelativeDocumentMoniker": "scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\Player.cs",
+              "RelativeToolTip": "scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:35:52.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mob.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\Mob.cs",
+              "RelativeDocumentMoniker": "scripts\\Mob.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\Mob.cs",
+              "RelativeToolTip": "scripts\\Mob.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAIwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:10:29.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NpcAnimations.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\NpcAnimations.cs",
+              "RelativeDocumentMoniker": "scripts\\NpcAnimations.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\NpcAnimations.cs",
+              "RelativeToolTip": "scripts\\NpcAnimations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:29:20.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MobController.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\MobController.cs",
+              "RelativeDocumentMoniker": "scripts\\MobController.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\MobController.cs",
+              "RelativeToolTip": "scripts\\MobController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:54:11.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AudioPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\AudioPlayer.cs",
+              "RelativeDocumentMoniker": "scripts\\AudioPlayer.cs",
+              "ToolTip": "C:\\Users\\Zacku\\Documents\\Godot Projects\\a-5-observer\\scripts\\AudioPlayer.cs",
+              "RelativeToolTip": "scripts\\AudioPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:37:11.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

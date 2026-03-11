@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvvln0m042dmm"]
+
+[ext_resource type="Script" uid="uid://6epqpfck4i66" path="res://scripts/MobController.cs" id="1_b8krp"]
+
+[sub_resource type="PackedScene" id="PackedScene_b8krp"]
+
+[node name="MobController" type="Node"]
+script = ExtResource("1_b8krp")
+mobScene = SubResource("PackedScene_b8krp")
